@@ -1,0 +1,29 @@
+potentialCases:
+ class: File
+ path: sample-data/dm_potential_cases.csv
+inputModule1:
+ class: File
+ path: knime/read-potential-cases.knwf
+inputModule2:
+ class: File
+ path: knime/abnormal-lab.knwf
+inputModule3:
+ class: File
+ path: knime/rx_t2dm_med-abnormal-lab.knwf
+ # Python:
+ # path: python/rx_t2dm_med-abnormal-lab.py
+inputModule4:
+ class: File
+ path: knime/dx_t2dm-abnormal-lab.knwf
+inputModule5:
+ class: File
+ path: knime/dx_t2dm-rx_t2dm_med.knwf
+inputModule6:
+ class: File
+ path: knime/dx_t2dm-rx_tdm_med-prec.knwf
+inputModule7:
+ class: File
+ path: knime/dx_t2dm-rx_t1dm_med-dx2.knwf
+inputModule8:
+ class: File
+ path: knime/output-cases.knwf
